@@ -1,54 +1,34 @@
- 🛒 OpenCart Website Testing – QA Project
+# Login & Register API Testing Project
 
-This repository contains manual test cases, bug reports, and documentation for testing an eCommerce website built using OpenCart. The purpose of this project is to ensure the website's functionality, usability, and overall quality by identifying bugs and verifying different user flows through manual testing.
+This project demonstrates basic API testing for user authentication using dummy APIs from [Reqres.in](https://reqres.in/).
+
+## Project Overview
+
+The purpose of this project is to test login and registration functionalities using Postman. It covers various scenarios including successful login/register, invalid inputs, and missing fields to ensure the APIs respond correctly.
+
+## Tools Used
+
+* **Postman** – for sending API requests and validating responses
+* **Excel** – for managing test cases
+* **Microsoft Word** – for documenting bug reports
+* **Reqres API** – free dummy REST API for testing
+
+## Tested Scenarios
+
+* Login with valid email and password
+* Login with invalid or missing password
+* Registration with valid details
+* Registration with missing password
+* Handling invalid emails during registration
+
+## How to Use
+
+1. Import the Postman collection (provided) to test API endpoints.
+2. Refer to the Excel file for detailed test cases and expected outcomes.
+3. Use the bug report document for known issues and test observations.
+
+## Author
+
+Kubra Memon
 
 
- Project Objective
-
-To perform manual quality assurance (QA) testing on an OpenCart-based eCommerce website and document test results, including:
-
-- User registration & login
-- Product browsing & search
-- Add to cart & checkout
-- Payment process
-- Form validations
-- UI/UX review
-- Error handling
-
----
-
-## 📁 Repository Contents
-
-| File/Folder | Description |
-|-------------|-------------|
-| `Test_Cases.docx / .xlsx` | Detailed manual test cases with steps, expected & actual results |
-| `Bug_Report.docx` | Report of bugs found during testing, including severity and screenshots |
-| `Screenshots/` | Visual evidence of bugs and test execution (if included) |
-
----
-
-## 🧪 Testing Scope
-
-- ✅ Functional Testing
-- ✅ UI/UX Review
-- ✅ Form Validation Testing
-- ✅ Positive & Negative Test Cases
-- ✅ Cross-browser Testing (if applicable)
-
----
-
-## 🔧 Tools & Technologies
-
-- Manual Testing
-- Browser Developer Tools
-- MS Word/Excel
-- Screenshot Tools (e.g., Snipping Tool, Lightshot)
-- [OpenCart Demo Site](https://demo.opencart.com/)
-
----
-
-##  How to Use
-
-1. Clone the repo or download the ZIP:
-   ```bash
-   git clone https://github.com/yourusername/opencart-testing.git
